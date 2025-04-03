@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules & dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build & cache directories
+dist/
+build/
+.cache/
+.temp/
+out/
+
+# Environment & config files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+dump.rdb
+*.sql
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Debugging & profiling
+.nyc_output/
+coverage/
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+jest/
+
+# Temporary files
+*.bak
+*.orig
+*.tmp
+*.log
+
+# API documentation (if using Swagger)
+swagger.json
+swagger.yaml
+
+# PM2 process manager files
+pm2.log
+pm2.pid
